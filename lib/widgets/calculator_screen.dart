@@ -105,6 +105,7 @@ class _CalculatorState extends State<Calculator> {
               ),
               alignment: Alignment(1.0, 1.0),
             ),
+            Divider(color: Colors.white),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
@@ -165,7 +166,7 @@ class _CalculatorState extends State<Calculator> {
     return Container(
       margin: EdgeInsets.all(10.0),
       height: 50,
-      width: 50,
+      width: 60,
       child: ElevatedButton(
         onPressed: () => btnOnClick(text),
         child: Text(
