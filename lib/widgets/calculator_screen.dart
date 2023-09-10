@@ -53,7 +53,7 @@ class _CalculatorState extends State<Calculator> {
         res = (firstnum - secondnum).toString();
         history =
             firstnum.toString() + operation.toString() + secondnum.toString();
-      } else if (operation == '*') {
+      } else if (operation == 'X') {
         res = (firstnum * secondnum).toString();
         history =
             firstnum.toString() + operation.toString() + secondnum.toString();
